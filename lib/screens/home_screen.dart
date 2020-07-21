@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
           subtitle: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text('${emp.post}  ID:${emp.id}'),
+              Text('${emp.post}  (ID:${emp.id})'),
               Text(
                 emp.salary.toString(),
               ),
